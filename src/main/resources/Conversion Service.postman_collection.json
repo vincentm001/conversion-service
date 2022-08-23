@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "10a0eff1-cda0-40cc-98d2-2b235597e108",
+		"name": "Conversion Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "conversion-length",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"conversionValue\":20000,\n    \"from\": \"inch\",\n    \"to\": \"kilometer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/conversion/length",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"conversion",
+						"length"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "conversion-temperature",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"conversionValue\":12,\n    \"from\": \"CELSIUS\",\n    \"to\": \"FAHRENHEIT\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/conversion/temperature",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"conversion",
+						"temperature"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
