@@ -1,0 +1,12 @@
+conversion:
+  measurement:
+    mile_kilometer: "1.609344"
+    mile_meter: "1609.344"
+    inch_kilometer: "0.0000254"
+    inch_meter: "0.0254"
+    kilometer_mile: "0.621371"
+    kilometer_inch: "39370.07874"
+    meter_mile: "0.000621"
+    meter_inch: "39.370079"
+
+
